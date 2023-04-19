@@ -1,0 +1,47 @@
+@import url("https://use.typekit.net/eha7lqg.css");
+
+:root {
+  --titlefont: all-round-gothic, sans-serif;
+  --normalfont: century-gothic, sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+.todos {
+  width: 80%;
+  background-color: white;
+  padding-inline: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1em;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 3em;
+}
+
+.todos li {
+  list-style: none;
+  width: 80%;
+  -webkit-box-shadow: 0px 9px 9px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 9px 9px -8px rgba(0, 0, 0, 0.1);
+}
+
+.todos li section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.todoinfo {
+  width: 320px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.todoimage {
+  height: 100px;
+}

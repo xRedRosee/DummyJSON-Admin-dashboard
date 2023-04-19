@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <h1> Webshop Admin </h1>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="users.html">Users</a></li>
+            <li><a href="carts.html">Carts</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="todos.html">ToDos</a></li>
+            <li><a href="quotes.html">Quotes</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="animation"> Products </h1>
+        <section class="filters animation">
+            <div class="categoriespart">
+                <button class="dropdownbtn"> All Categories ▼ </button>
+                <div class="dropdown-content">
+                </div>
+            </div>
+            <form class="searchpart">
+                <input type="text" class="searchbar" placeholder="search...">
+                <input type="submit" class="searchbtn" value="search">
+                <input type="submit" class="allbtn" value="all">
+            </form>
+            <div class="addpart">
+                <button class="addproductbtn"> Add Product </button>
+            </div>
+        </section>
+        <section class="products"></section>
+        <a href="#top" class="up">
+            🠕
+        </a>
+    </main>
+    <script src="js/products.js"></script>
+</body>
+</html>

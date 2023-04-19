@@ -1,0 +1,127 @@
+@import url("https://use.typekit.net/eha7lqg.css");
+
+:root {
+  --titlefont: all-round-gothic, sans-serif;
+  --normalfont: century-gothic, sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.addcartbutton {
+  background-color: #98b973;
+  border: none;
+  padding: 0.5em;
+  font-family: var(--normalfont);
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+.addcartbutton:hover {
+  border: 2px solid #98b973;
+  background-color: white;
+  padding: 0.5em;
+  font-family: var(--normalfont);
+  font-weight: 400;
+  font-size: 14px;
+  color: #98b973;
+}
+
+.carts {
+  width: 80%;
+  background-color: white;
+  padding-inline: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1em;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 3em;
+}
+
+.carts li {
+  list-style: none;
+  width: 80%;
+  -webkit-box-shadow: 0px 9px 9px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 9px 9px -8px rgba(0, 0, 0, 0.1);
+}
+
+.carts li section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.seemorebtn {
+  width: 100px;
+  color: white;
+  background-color: #98b973;
+  border: none;
+  padding: 5px;
+  font-family: var(--normalfont);
+  font-weight: 400;
+  font-size: 14px;
+}
+.seemorebtn:hover {
+  color: #98b973;
+  background-color: white;
+  border: 2px solid #98b973;
+}
+.seelessbtn {
+  width: 100px;
+  color: white;
+  background-color: #98b973;
+  border: none;
+  padding: 5px;
+  font-family: var(--normalfont);
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 2em;
+}
+.seelessbtn:hover {
+  color: #98b973;
+  background-color: white;
+  border: 2px solid #98b973;
+}
+
+.productinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infolist {
+  width: 50%;
+}
+
+.productlist {
+  width: 50%;
+}
+
+.bottom {
+  -webkit-box-shadow: 0px 9px 9px -8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 9px 9px -8px rgba(0, 0, 0, 0.2);
+}
+
+.productimage {
+  height: 70px;
+}
+
+.cartimage {
+  height: 100px;
+  margin-top: 5em;
+}
